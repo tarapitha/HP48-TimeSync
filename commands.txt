@@ -1,0 +1,5 @@
+Windows Powershell:
+'{0:X}'-f[bigint]([DateTime]::UtcNow.Ticks*8192/10000000+259050700800)
+
+Linux:
+date +'obase=16;(%s.%4N+62167219200)*8192/1'|bc

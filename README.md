@@ -25,6 +25,7 @@ Binaries:
 
 To synchronize the calculator against the computer system time:
 
+- Create variable 'TZ' in the calculator HOME directory. This should contain time shift in hours from UTC as a real number. UTC is assumed by default when the variable is not present 
 - Connect calculator to computer via the serial interface
 - Run Kermit server on the computer
 - Run the provided utility on your calculator, choose *tsync* for Linux and *win_tsync* for MS Windows

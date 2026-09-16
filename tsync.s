@@ -10,10 +10,10 @@
 *  Language:    SysRPL / Saturn Assembly
 * =======================================================
 
-* Calculator internal TICKS = ( UnixTimestamp + 62167219200 ) * 8192
+* Calculator internal TICKS = ( UnixSystemTime + 62167219200 ) * 8192
 *
 * Calculator epoch starts at midnight on January 1 of
-* year 0 AD or year 1 BC in the proleptic Gregorian calendar
+* year 0 AD or year 1 BC of the proleptic Gregorian calendar
 *
 
 ASSEMBLE
